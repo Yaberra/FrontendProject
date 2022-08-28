@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Annie+Use+Your+Telescope&family=Lilita+One&family=Noto+Sans:wght@100&family=Roboto+Mono:wght@600;700&family=Source+Sans+Pro&display=swap");
+
+:root {
+    --orange:  rgb(253, 148, 28);
+    --yellow: rgb(255, 216, 123);
+    --lightyellow: rgb(255, 246, 218);
+    --gradient:linear-gradient(90deg, var(var(--orange) var(var(--yellow))))
+}
+
+*{
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+
+}
+
+*::selection {
+    background: var(--lightyellow);
+}
+
+span {
+    width: 160px;
+}
+
+img{
+    width: 45%;
+    align-items: center;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--lightyellow);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #232323;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: var(--orange);
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
