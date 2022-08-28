@@ -13,7 +13,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: none;
     transition: all .2s linear;
 
 }
@@ -24,11 +24,14 @@
 
 span {
     width: 160px;
+    margin-top: 5%;
+    margin-left: 10%;
 }
 
 img{
-    width: 45%;
+    width: 30%;
     align-items: center;
+    margin-top: 10%;
 }
 
 .sidenav {
@@ -68,5 +71,25 @@ img{
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+  }
+
+  p{
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Helvetica Neue';
+    
+  }
+
+  h1{ 
+    font-family: fantasy;
+    font-style: normal;
+    font-weight: bolder;
+  }
+  h3{ 
+    font-family: fantasy;
+    font-style: normal;
+    font-weight: bolder;
+
   }
 
