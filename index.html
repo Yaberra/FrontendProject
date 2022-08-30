@@ -1,59 +1,85 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
+	
 	<meta charset="UTF-8">
 	<title>Chronical a Journaling App</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Annie+Use+Your+Telescope&family=Lilita+One&family=Noto+Sans:wght@100&family=Roboto+Mono:wght@600;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/reset.css">
-	<style>
-
-	</style>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/reset.css">
 
 </head>
- <body style="font: Lilita; font-size: large;">
-	<header>
-	<nav>
+ <body>
+
+		<nav>
+			<nav>
+				<a href="#" class="logo">
+				  <h1>
+					<span class="chronical"><img src="./images/logo-web.png">
+					<span>
+				  </h1>
+				</a>
+		  </nav>
+
+			<nav class="navbar">
+				<ul>
+					<li class="nav-item">
+					  <a href="#home" class="nav-link" id="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a href="#about" class="nav-link" id="nav-link">About</a>
+					</li>
+					<li class="nav-item">
+					  <a href="#features" class="nav-link" id="nav-link">Features</a >
+				</ul>
+			</nav>
+			<div class="hamburger" id="hamburger">
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</div>
+		</nav>
+
+		<section class="hero">
+			
+			<div class="intro">
+				<p>Are you stressing? Not reached some of your life goals? <br/>
+					Wishing there was a way to capture memories? Is it all saved in your mind?<br/>
+					The to-do-lists, the dreams, the aspirations.</p> <br />
+				</p>
+			
+			  <a class="btn red" href="#"><h2>Have You Tried journaling?</h2></a>
+			
+			</div>
+			<img src="./images/top-image.png">
+			</img>
+			
+		  </section>
+			
 		
-		<span style="font-size:85px;cursor:pointer; color:rgb(253, 148, 28);" onclick="openNav()">&#9776;<a href="a" class="logo"></a>
-			<img src="./images/logo.png">
-		</span>
-		<br/>
-		<div id="mySidenav" class="sidenav">
-			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-			<a href="#">Home</a>
-			<a href="#">Features</a>
-			<a href="#">Download</a>
-		 </div>
-	</nav>
-	</header>
-	<main>
-		<div class="container">
-			<h1>Have you tried journaling?</h1>
-            <p>Are you stressing? Not reached some of your life goals? Wishing there was a way to capture memories? Is it all saved in your mind? The to-do-lists, the dreams, the aspirations.</p>
-            
-            <h3>Do you write it down?</h3> 
 
-            <p>Every moment counts. Your experience, your reactions your mood. The milestones you've reached or struggling to reach. From the moment you wake up and set intentions and purpose for your day, to the gaps - looking to every moment and beyond. Every take off, every landing-tomorrow, today, month from now, years -  it all matters. It's your story and it deserves to be Studies show that if you write your goals and aspirations you are more likely to fulfill it. </p>
 
-			<p>So many gems lie within everyday moments. It is your life story and deserves to be documented. Have you had moments when, if you asked questions, wondered, curious to learn how it was like and the experiences of others around you.</p>
+		
+	
+    <footer>
 
-			<p>Chronicle is a minimalist journaling app made for iPhone. It extends apple's notetaker capabilities to synch with your apps to create a centralized writing and documentation system for a robust journaling and capturing your mood. Through this app you can pull from all areas of your life and tell your life stories and document milestones, goals and aspirations.</p>
-		</div>
-	</main>
-    <footer></footer>
-	<script src=""> </script>
-    
+	</footer>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="./js/index.js"></script>
    
- </body>
+</body>
 </html>
+
+
+
+
+
