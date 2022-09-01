@@ -5,8 +5,8 @@
   --normal-font: 400;
   --bold-font: 600;
   --bolder-font: 900;
-  --primary-color: #FECD5A;
- --secondary-color: #FD9319;
+  --primary-color: #1A3A57;
+ --secondary-color: #428A8B;
   --line-height: 1.7rem;
   --transition: 0.4s ease-in;
 }
@@ -29,11 +29,12 @@ html {
 }
 
 nav {
-    background: #fff;
+    background: #D9EDE9;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    height: 130px;
 
   }
 
@@ -64,6 +65,8 @@ a:hover {
   .logo {
     font-size: 2rem;
     font-weight: 500;
+    width: 50%;
+    padding-top: 10px;
   }
   
   ul {
@@ -86,13 +89,15 @@ a:hover {
   gap: 2.9rem;
   max-width: 1100px;
   margin: 2rem auto -6rem;
+  ;
   }
 
   .intro {
-    margin: 0;
+    margin-top: 5%;
     padding: 0;
     font-weight:lighter;
     font-family: 'Helvetica Neue';
     font-size: 20pt;
+    text-align: center;
   }
   
