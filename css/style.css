@@ -25,7 +25,7 @@ html {
 }
 
  body {
-  font-family: "Roboto", sans-serf;
+  font-family: 'Segoe UI', 'Helvetica Neue';
 }
 
 nav {
@@ -34,7 +34,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    height: 130px;
+    height: 120px;
 
   }
 
@@ -64,8 +64,8 @@ a:hover {
 
   .logo {
     font-size: 2rem;
-    font-weight: 500;
-    width: 50%;
+    font-weight: 100;
+    width: 25%;
     padding-top: 10px;
   }
   
@@ -81,6 +81,7 @@ a:hover {
   
   .nav-link {
     font-weight: var(--bold-font);
+    color: #428A8B;
   }
   .hero {
   display: flex;
@@ -90,6 +91,10 @@ a:hover {
   max-width: 1100px;
   margin: 2rem auto -6rem;
   ;
+  }
+  .nav-item {
+    font-weight: var(--bold-font);
+    color: #428A8B;
   }
 
   .intro {
