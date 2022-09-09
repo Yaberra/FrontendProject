@@ -148,10 +148,7 @@
     .screen-wrap { width: 370px; }
     .swiper-wrapper{ margin-left: 0; }
 }
-/* ---- End of max-width 420px CSS ---- */
 
-
-/* ---- Start of max-width 380px CSS ---- */
 @media all and (max-width: 380px) {
     .btn-group{
         display: block;
