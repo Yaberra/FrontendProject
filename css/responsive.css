@@ -1,4 +1,6 @@
-
+/*
+    FlatApp Responsive
+*/
 
 @media (max-width: 1024px) {
     .hero-section{ z-index: 1; }

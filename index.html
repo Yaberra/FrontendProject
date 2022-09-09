@@ -1,47 +1,51 @@
 <!doctype html>
+<html class="no-js" lang="en"> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Chronical responsive app landing page">
-        <title>Chronical Digital Journaling Mobile App Landing Page</title>
+        <meta name="description" content="Chronicle is a digital journaling app to document your life experiences, plans and mood.">
+        <title>Chronicle|  App Landing Page</title>
         
         <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="./img/logo.png">
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
 
         <!-- themify Icon CSS -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-         <link rel="stylesheet" href="css/themify-icons.css">
+        <link rel="stylesheet" href="css/themify-icons.css">
         <!-- Animate CSS -->
         <link rel="stylesheet" href="css/animate.min.css">
         <!-- Elegant Icons CSS -->
         <link rel="stylesheet" href="css/elegant-line-icons.css">
         <!-- Bootsrtap CSS -->
-        
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <!-- Owl Carousel CSS -->
         <link rel="stylesheet" href="css/owl.carousel.min.css">
         <!-- Swipebox CSS -->
         <link rel="stylesheet" href="css/swipebox.min.css">
         <!-- Swiper CSS -->
         <link rel="stylesheet" href="css/swiper.min.css">
-        <!-- <link rel="stylesheet" href="css/color.css">-->
-        <link rel="stylesheet" href="css/responsive.css">
         
         <!-- Theme CSS -->
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/reset.css">
-       
-       
+        <!-- <link rel="stylesheet" href="css/color.css">-->
+        <link rel="stylesheet" href="css/responsive.css">
 
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
-        <header id="header" class="header transparent-header ptb-10">
+    <body data-spy="scroll" data-target="#navbar" data-offset="60">
+        
+       <div id='preloader' >
+            <div class='loader' >
+                <img src="img/loader.svg" width="150" alt="">
+            </div>
+        </div>
+        
+		<header id="header" class="header transparent-header ptb-10">
             <div class="container">
                 <div class="col-md-3 col-sm-4 col-xs-4">
                     <div class="navbar-header">
-                        <a href="#" class="brand logo-light"><img src="./img/logo.png" class="img-w-100" alt="Chronical"></a>
+                        <a href="#" class="brand logo-light"><img src="img/logo.png" class="img-w-100" alt="Foxstar"></a>
                     </div>
                 </div>
                 <div class="col-md-9 col-sm-8 col-xs-8 pos-inherit">
@@ -52,23 +56,23 @@
                             <li class="active"><a data-scroll href="#home">Home <span class="sr-only">(current)</span></a></li>
                             <li><a data-scroll href="#describe">About</a></li>
                             <li><a data-scroll href="#features">Features</a></li>
-                            <li><a data-scroll href="#screenshots">Stay Connected</a></li>
+                            <li><a data-scroll href="#screenshots">Screenshots</a></li>
                         </ul>
                     </div><!--/.navbar-collapse -->
                 </div>
             </div>
 		</header> <!-- Header -->
 		
-		<section id="home" class="hero-section height-650" data-property="{videoURL:'sbios0u2Px8',containment:'self', autoPlay:true, mute:true, startAt:0, opacity:1, showControls:false, ratio:'16/9'}" style="background-image: url()">
+		<section id="home" class="hero-section height-650" data-property="{videoURL:'sbios0u2Px8',containment:'self', autoPlay:true, mute:true, startAt:0, opacity:1, showControls:false, ratio:'16/9'}" style="background-image: url(./img/coverbackground.png)">
                <div class="display-table">
                    <div class="table-cell">
                        <div class="container">
                           <div class="hero-content ptb-115 text-center sm-no-padding">
-                              <h1 class="fz-45 text-white mb-10 xs-br-none"> Chronical is <br>a minimalist journaling app made for iPhone to capture, memories, your thoughts and mood. </h1>
-                              <p class="mb-10 text-white">Available On iPhone</p>
+                              <h1 class="fz-45 text-white mb-10 xs-br-none"><h2 style="color:white; font-weight: 500;">Chronicle is a minimalist journaling app  made for iPhone. </h2><br/>
+                              <p class="mb-10 text-white">Available On Appstore</p>
                               <div class="btn-group">
-                                  <a href="#" class="b-btn">Download</a>
-                                  <a href="#" class="b-btn">Learn More</a>
+
+                              </div><a href="#describe" class="b-btn">Learn More</a>
                               </div>
                          </div>
                     </div>
@@ -79,18 +83,28 @@
         <section id="describe" class="promo-section bd-bottom padding">
             <div class="container">
                 <div class="section-heading mb-40 text-center">
-                    <h2 class="mb-10">About</h2>
-                    <p class="no-margin">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h2 class="mb-10">Chronicle is an extensive digital journal system to document your journey and life goals while capturing your mood.
+                    <p class="no-margin">
                 </div><!-- section-heading -->
                 <div class="icon-boxes">
-                     <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="200ms" data-wow-duration="800ms">
+                    <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="0ms" data-wow-duration="800ms">
+                        <div class="icon-box text-center">
+                           <div class="icon-wrap img-w-80 bdrs-50 bd-grey lh-80 fz-28">
+                               <i class="icon-desktop"></i>
+                               <span>1</span>
+                           </div>
+                            <h4 class="fz-24 mb-10 mt-10">Integrated</h4>
+                            <p class="no-margin">Chronicle integrates with your apple notetaker, your calendar, video and photos. You can upload file documentation in PDF, Word and Excel Sheet as well as connect to your google drive to upload and downloand files.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="200ms" data-wow-duration="800ms">
                         <div class="icon-box text-center">
                             <div class="icon-wrap img-w-80 bdrs-50 bd-grey lh-80 fz-28">
                                <i class="icon-edit"></i>
-                              <span>2</span>
-                            </div>
-                            <h4 class="fz-24 mb-10 mt-10">Journaling</h4>
-                            <p class="no-margin">Lorem Ipsum is simply dummy printing and industry.</p>
+                               <span>2</span>
+                           </div>
+                            <h4 class="fz-24 mb-10 mt-10">Journal</h4>
+                            <p class="no-margin">You can create a journal entry, upload, images, files and documents and  connect a mood entry. You can save your entries to a folder or save as drafts. You can lock your files. All entries will be displayed in your profile and the app will monitor your activity level for each entry. </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="400ms" data-wow-duration="800ms">
@@ -100,7 +114,7 @@
                                <span>3</span>
                            </div>
                             <h4 class="fz-24 mb-10 mt-10">Mood Tracking</h4>
-                            <p class="no-margin">Lorem Ipsum is simply dummy printing and industry.</p>
+                            <p class="no-margin"> YOu can track your mood at every moment of your journal entry or as separate entry. If wishing to document how you feel, you will be promoted to select an emoji that best represents your mood, choose a mood color and  write notes to reflect on how you feel. The app tracks on your mood with a choice of weekly and monthly view. </p>
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6 sm-padding wow zoomIn" data-wow-delay="500ms" data-wow-duration="800ms">
@@ -110,22 +124,69 @@
                                <span>3</span>
                            </div>
                             <h4 class="fz-24 mb-10 mt-10">Documentation</h4>
-                            <p class="no-margin">Lorem Ipsum is simply dummy printing and industry.</p>
+                            <p class="no-margin">Every take off, every landing, today, tomorrow, a month from now, years -  your experience matters and it deserves to be documented.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section><!-- Promo Section -->
         
-        
-        
-       
-        
+        <section id="screenshots" class="screen-shot-section padding bd-bottom">
+            <div class="container">
+                <div class="section-heading mb-40 text-center">
+                    <h2>Features</h2>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                          <div class="screen-wrap">
+                            <div class="swiper-container screen-carousel">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-1.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-2.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-3.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-4.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-5.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-6.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-7.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-8.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-9.jpg" alt="App Screen">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img src="img/screen-10.jpg" alt="App Screen">
+                                    </div>
+                                </div>
+
+                                <!-- pagination -->
+                                <div class="screen-pagination"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- screen-shot-section -->
         <section id="subscribe" class="widget-section bd-top-dark padding bg-dark">
             <div class="container">
                 <div class="section-heading text-center mb-40">
                     <h2 class="text-white">Stay Tuned</h2>
-                    <p class="text-white">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p class="text-white">Subscribe to our email list to get the latest updates.</p>
                 </div>
                 <div class="col-md-6 col-md-offset-3 xs-padding">
                     <div class="widget-box text-center">
@@ -143,7 +204,7 @@
 		<footer class="footer-section bg-dark bd-top-dark ptb-40 tt-u">
 			<div class="container">
 				<div class="col-sm-6 xs-padding xs-text-center">
-				    <p class="text-light fz-12">Chronical 2022</p>
+				    <p class="text-light fz-12">@2022 Chronicle</p>
 				</div>
 				<div class="col-sm-6 xs-text-center xs-padding text-right">
 					<ul class="footer-social">

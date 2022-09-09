@@ -68,7 +68,9 @@
 }
 
 /* Nav Menu */
-ul.nav ul.nav > li ul.nav > li > a {
+ul.nav{}
+ul.nav > li{}
+ul.nav > li > a{
 	color: #ddd;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -86,22 +88,18 @@ ul.nav > li.active > a{
     color: #fff;
 }
 
-/* ==========================================================================
-   2.0 Hero Section
-   ========================================================================== */
-.hero-section .hero-content{
+.hero-section{}
+.hero-content{
     padding-top: 135px;
 } 
 .hero-section .display-table{
     background-color: rgba(0,0,0,0.4);
 }
-/* ==========================================================================
-   3.0 Promo Section
-   ========================================================================== */
+
 .icon-wrap{
     margin: 0 auto;
     position: relative;
-    border: 1px solid #fd7e57;
+    border: 1px solid #428A8B;
 }
 .icon-wrap span{
     font-family: 'LANENAR', sans-serif;
@@ -110,7 +108,7 @@ ul.nav > li.active > a{
     height: 25px;
     font-size: 12px;
     border-radius: 50%;
-    background-color: #2B8180;
+    background-color: #428A8B;
     color: #fff;
     line-height: 25px;
     padding: 0 10px;
@@ -122,10 +120,7 @@ ul.nav > li.active > a{
     transition: all 0.5s ease-in-out;
 }
 
-/* ==========================================================================
-   4.0 Documentation Section
-   ========================================================================== */
-.doc-section .doc-mockup .doc-mockup-1{
+.doc-mockup .doc-mockup-1{
     width: 50%;
     z-index: -1;
 }
@@ -136,10 +131,8 @@ ul.nav > li.active > a{
     bottom: 0;
 }
 
-/* ==========================================================================
-   5.0 Feature Section
-   ========================================================================== */
-.feature-section .feature-wrap{
+.feature-section{}
+.feature-wrap{
     padding: 80px 0;
 }
 
@@ -154,9 +147,6 @@ ul.nav > li.active > a{
     bottom: 0;
 }
 
-/* ==========================================================================
-   6.0 Screenshot Section
-   ========================================================================== */
 .screen-wrap{
     width: 900px;
     margin: 0 auto;
@@ -181,47 +171,16 @@ ul.nav > li.active > a{
     opacity: 1;
 }
 .screen-wrap .swiper-pagination-bullets .swiper-pagination-bullet-active{
-    background-color: #2B8180;
-    border: 1px solid #D9EDE9;
+    background-color: #428A8B;
+    border: 1px solid #428A8B;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
 }
 
-/* ==========================================================================
-   7.0 Testimonial Section
-   ========================================================================== */
-.review-box img{
-    height: 80px;
-    width: 80px!important;
-    margin: 20px auto;
-}
-.review-carousel .owl-item{
-    -webkit-transform: scale(0.9);
-    transform: scale(0.9);
-    opacity: 0.5;
-    transition: all 0.5s ease-in-out;
-}
-.review-carousel .owl-item.center{
-    background-color: #2B8180;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    transition: all 0.5s ease-in-out;
-}
-.review-carousel .owl-item.center h5{
-    color: #2B8180;
-}
-.review-carousel .owl-item.center P{
-    color: #2B8180;
-}
+/
 
-
-
-/* ==========================================================================
-    9.0 Download Section
-   ========================================================================== */
 .download-mock-up{
     background-image: url(../img/phone-4.png);
     background-repeat: no-repeat;
@@ -234,11 +193,9 @@ ul.nav > li.active > a{
     right: 0;
 }
 
-
-/* ==========================================================================
-   11.0 Subscribe Section
-   ========================================================================== */
-.subscribe-box .subscribe-form .subscribe-form .email-field{
+.subscribe-box{}
+.subscribe-form{}
+.subscribe-form .email-field{
     display: inline-block;
 	background-color: #fff;
 	border: none;
@@ -252,13 +209,11 @@ ul.nav > li.active > a{
     width: 20%;
 }
 .subscribe-form .email-field.fs-input-error{
-    border: 1px solid #D9EDE9;
+    border: 1px solid red;
 }
 
-/* ==========================================================================
-   12.0 Footer
-   ========================================================================== */
-.footer-social .footer-social li{
+.footer-social{}
+.footer-social li{
     display: inline-block;
     margin-left: 10px;
 }
@@ -267,26 +222,23 @@ ul.nav > li.active > a{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 1px solid #D9EDE9;
-    color: #2B8180;
+    border: 1px solid #428A8B;
+    color: #fff;
     display: inline-block;
     text-align: center;
     line-height: 28px;
 }
 .footer-social li a:hover{
     text-decoration: none;
-    background-color: #2B8180;
+    background-color: #428A8B;
     color: #fff;
 }
 
 
-/* ==========================================================================
-   13.0 Scroll To Top
-   ========================================================================== */
 .scroll-to-top{
 	display: block;
 	text-align: center;
-	background-color: #2B8180;
+	background-color: #428A8B;
 	font-size: 12px;
 	width: 40px;
 	height: 40px;
@@ -304,110 +256,3 @@ ul.nav > li.active > a{
 	transform: translateY(-5px);
 	text-decoration: none;
 }
-
-* CSS Variables */
-:root {
-  --normal-font: 400;
-  --bold-font: 600;
-  --bolder-font: 900;
-  --primary-color: #1A3A57;
- --secondary-color: #428A8B;
-  --line-height: 1.7rem;
-  --transition: 0.4s ease-in;
-}
-
-/* Smooth scroll effect */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Resets */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: var(--transition);
-}
-
- body {
-  font-family: 'Segoe UI', 'Helvetica Neue';
-}
-
-nav {
-    background: #D9EDE9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    height: 120px;
-
-  }
-
-ul li {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
-a:hover {
-  color: var(--secondary-color);
-} 
-.navbar {
-  position: sticky;
-  top: 0;
-  left: 0;
-  z-index: 1;
-
-}
-
-.hamburger {
-    display: none;
-  }
-
-  .logo {
-    font-size: 2rem;
-    font-weight: 100;
-    width: 25%;
-    padding-top: 10px;
-  }
-  
-  ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .nav-item {
-    margin-left: 2rem;
-  }
-  
-  .nav-link {
-    font-weight: var(--bold-font);
-    color: #428A8B;
-  }
-  .hero {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2.9rem;
-  max-width: 1100px;
-  margin: 2rem auto -6rem;
-  ;
-  }
-  .nav-item {
-    font-weight: var(--bold-font);
-    color: #428A8B;
-  }
-
-  .intro {
-    margin-top: 5%;
-    padding: 0;
-    font-weight:lighter;
-    font-family: 'Helvetica Neue';
-    font-size: 20pt;
-    text-align: center;
-  }
-  

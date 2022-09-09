@@ -14,28 +14,30 @@
 .scroll-to-top,
 .footer-social li a:hover,
 .owl-nav-2 .owl-nav div,
-.bg-green,
+.bg-red,
 .b-btn{
-    background-color: #2B8180;
+    background-color: #428A8B;
 }
 .feature-list .list-item i,
 .footer-social li a,
+.pricing-list li:before,
 .video-box .video-icon a,
 .list-check li:before,
 .text-red{
-    color: #2B8180;
+    color: #428A8B;
 }
 .b-btn:hover{
-    background-color: #2B8180;
+    background-color: #428A8B;
 }
 .video-box .video-icon{
-    border-right: 2px solid #2B8180;
+    border-right: 2px solid #428A8B;
 }
 .screen-wrap .swiper-pagination-bullets .swiper-pagination-bullet-active,
 .icon-wrap,
 .footer-social li a,
-a{
-     border: 1px solid #2B8180;
+.pricing-box.mid,
+.video-box .video-icon a{
+     border: 1px solid #428A8B;
 }
 
 
